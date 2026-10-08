@@ -1,0 +1,10 @@
+*.RData
+*.Rdata
+*.Rda
+*.RDS
+*.rds
+.Rhistory
+.Rproj.user/
+01input/
+02output/
+.env
