@@ -1,17 +1,17 @@
 # 官方文档
-# httpLOCAL_PROJECT_PATH
+# https://github.com/johncolby/SVM-RFE/blob/master/README.md
 
 # 104机器学习基于r包mlr35--分类--svm
-# httpLOCAL_PROJECT_PATH
+# https://lishensuo.github.io/posts/bioinfo/104%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E4%BA%8Er%E5%8C%85mlr35--%E5%88%86%E7%B1%BB--svm/
 
-# httpLOCAL_PROJECT_PATH
-#  httpLOCAL_PROJECT_PATH
+# https://zhuanlan.zhihu.com/p/666557017
+#  https://zhuanlan.zhihu.com/p/623191566
 
-# httpLOCAL_PROJECT_PATH
+# https://blog.csdn.net/weixin_43216017/article/details/87898559
 
-# httpLOCAL_PROJECT_PATH
+# https://www.jianshu.com/p/e3d3483edaa0
 
-# httpLOCAL_PROJECT_PATH
+# https://www.jiqizhixin.com/articles/2018-10-17-20
 # #安装需要的R包
 # install.packages("tidyverse")
 # install.packages("randomForest")

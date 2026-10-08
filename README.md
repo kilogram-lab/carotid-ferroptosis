@@ -18,7 +18,7 @@ Retained R analysis scripts accompanying an exploratory study of rat carotid bal
 
 ## Reproduction status
 
-This repository provides the retained source code, not a certified end-to-end reproduction. Scripts were inspected but not executed for this revision. Required raw/processed matrices, Seurat objects, final gene lists, session versions and some external helper scripts are absent. Script numbering indicates a historical workflow, not a verified execution order. Do not source all scripts sequentially: several clear the workspace, require objects from earlier interactive sessions, contain alternate branches or exploratory plotting fragments.
+This repository provides the retained source code, not a certified end-to-end reproduction. Scripts were inspected but not executed for this revision. Required raw/processed matrices, Seurat objects, final gene lists and session versions are absent. The supplied msvmRFE.R helper is included with its original John Colby attribution; execution of the final SVM branch remains unverified. Script numbering indicates a historical workflow, not a verified execution order. Do not source all scripts sequentially: several clear the workspace, require objects from earlier interactive sessions, contain alternate branches or exploratory plotting fragments.
 
 Before running, reconcile sample metadata and animal pairing, restore the required inputs, identify the figure-generating version, and record package versions. No lockfile or sessionInfo is fabricated. packages_detected.txt lists statically detected packages only.
 

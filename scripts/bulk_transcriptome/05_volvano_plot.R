@@ -4,7 +4,7 @@
 ### 更新时间：2020-01-04
 ### 微信公众号:果子学生信
 ### 私人微信：guotosky
-### 个人博客: httpLOCAL_PROJECT_PATH
+### 个人博客: https://codingsoeasy.com/
 
 ###############
 ###############
@@ -114,4 +114,4 @@ library(export)
 graph2ppt(file="volcano02.pptx")
 
 ## GEO教程长期更新的链接是这个:
-## httpLOCAL_PROJECT_PATH
+## https://codingsoeasy.com/archives/geo

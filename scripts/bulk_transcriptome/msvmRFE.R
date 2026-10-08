@@ -1,5 +1,5 @@
 # Copyright (C) 2011  John Colby
-# httLOCAL_PROJECT_PATH
+# http://github.com/johncolby/SVM-RFE
 
 svmRFE.wrap <- function(test.fold, X, ...) {
 # Wrapper to run svmRFE function while omitting a given test fold

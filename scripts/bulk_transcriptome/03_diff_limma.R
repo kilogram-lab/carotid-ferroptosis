@@ -4,7 +4,7 @@
 ### 更新时间：2020-01-04
 ### 微信公众号:果子学生信
 ### 私人微信：guotosky
-### 个人博客: httpLOCAL_PROJECT_PATH
+### 个人博客: https://codingsoeasy.com/
 
 ##############
 ##############
@@ -83,7 +83,7 @@ colnames(design) <- levels(group)
 
 #differential差异分析
 ##1.构建分组矩阵,有两种方式
-##httpLOCAL_PROJECT_PATH
+##https://dwz.cn/wR2qU7s9
 #这一段有两种方法，但是初学的时候特别容易误解，这一步分完全就是独立的
 ## 创建分组
 #group <- c(rep("con",3),rep("treat",3)) 
@@ -263,13 +263,13 @@ ggsave("./02output/01pic/pic02-a-box.pdf", p3, width=15 ,height=4)
 
 ## 推荐阅读
 ## GEO芯片分析中的大坑，差异基因完全相反！
-## httpLOCAL_PROJECT_PATH
+## https://dwz.cn/TuaCFpNl
 ## GEO芯片如果超过了两组，也可以一次搞定差异分析
-## httpLOCAL_PROJECT_PATH
+## https://dwz.cn/l6ocOQHN
 ## GEO芯片中配对样本如何做差异分析
-## httpLOCAL_PROJECT_PATH
+## https://dwz.cn/YpniLsiP
 ## 因子(factor)就像贤内助，让你始终分清主次，拨开云雾。
-## httpLOCAL_PROJECT_PATH
+## https://dwz.cn/KMo5SV0L
 
 ## GEO教程长期更新的链接是这个:
-## httpLOCAL_PROJECT_PATH
+## https://codingsoeasy.com/archives/geo

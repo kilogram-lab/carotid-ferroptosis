@@ -4,7 +4,7 @@
 ### 更新时间：2020-01-04
 ### 微信公众号:果子学生信
 ### 私人微信：guotosky
-### 个人博客: httpLOCAL_PROJECT_PATH
+### 个人博客: https://codingsoeasy.com/
 
 rm(list = ls())
 load(file = "exprSet_readGSE_GSE164050_All.counts.Rdata")
@@ -46,7 +46,7 @@ index <- "GPL24688"  ##悲催，本例没有R包
 #paste0(platformMap$bioc_package[grep(index,platformMap$gpl)],".db")
 
 ## 安装R包
-#options(BioC_mirror="httpLOCAL_PROJECT_PATH")
+#options(BioC_mirror="https://mirrors.ustc.edu.cn/bioc/")
 #if(!require("hugene10sttranscriptcluster.db")) BiocManager::install("hugene10sttranscriptcluster.db",update = F,ask = F)
 
 #获取探针
@@ -127,15 +127,15 @@ exprSet["Gapdh",]
 save(exprSet, cli01,cli01_GSE164050, file = "exprSet_rmdup.Rdata")
 ## 补充阅读部分:
 ## 探针对应的信息可以从平台文件获取
-## httpLOCAL_PROJECT_PATH
-## httpLOCAL_PROJECT_PATH
-## httpLOCAL_PROJECT_PATH
+## https://mp.weixin.qq.com/s/nWbMO4mULgN__nPjooRDlg
+## https://mp.weixin.qq.com/s/CSHdvRK6xoNJU91tpper_w
+## https://mp.weixin.qq.com/s/DlioHHXQd-W-96tXLWrQvA
 ## NM_，NR_开头的识别号如何转换成基因名称
-## httpLOCAL_PROJECT_PATH
+## https://mp.weixin.qq.com/s/FdCcliMCYj4Yb4grzIQMaA
 ## 非编码序列如何转换
-## httpLOCAL_PROJECT_PATH
+## https://mp.weixin.qq.com/s/X8rUnEasKy3Dk-EoUAvC2A
 ## 如何让基因名称在多个数据库间随意转换？
-## httpLOCAL_PROJECT_PATH
+## https://mp.weixin.qq.com/s/wsiceQmNVveoggiqeDSlmQ
 
 ## GEO教程长期更新的链接是这个:
-## httpLOCAL_PROJECT_PATH
+## https://codingsoeasy.com/archives/geo

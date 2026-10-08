@@ -116,7 +116,7 @@ p2 <- FeaturePlot(scRNA,features = 'Ferroptosis_score1',reduction = 'umap',label
 FeaturePlot(scRNA,features = 'Ferroptosis_score1',reduction = 'tsne')
 p2 <-FeaturePlot(scRNA,features = 'Ferroptosis_score1',reduction = 'umap',label=F,pt.size = 1,cols = pal_npg("nrc")(3)[3:1])
 ggsave("03fig03/07_smcs_fer.pdf", p2, width=6 ,height=4)
-# httpLOCAL_PROJECT_PATH
+# https://www.jianshu.com/p/dc88e217f68c
 # ggsci
 
 pal_npg("nrc")(3)

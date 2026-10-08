@@ -1,5 +1,5 @@
 # 从CellMarker下载细胞注释表格
-# CellMarker：httLOCAL_PROJECT_PATH
+# CellMarker：http://bio-bigdata.hrbmu.edu.cn/CellMarker/index.jsp
 # cell_marker <- read.csv("CellMarker.csv" )
 cell_marker <- fread(file = "CellMarker.csv")
 colnames(cell_marker)[c(5,6)] <- c("cell_name" , "cell_marker")

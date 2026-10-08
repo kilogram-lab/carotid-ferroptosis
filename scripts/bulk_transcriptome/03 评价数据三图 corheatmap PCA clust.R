@@ -74,7 +74,7 @@ if (T) {
 if (F) {
  
   ### 查看TCGA_id分组意义
-  ### httpLOCAL_PROJECT_PATH
+  ### https://dwz.cn/WVgQUqfw
   ### 样本名称
   TCGA_id <- colnames(exprSet)
   
@@ -109,7 +109,7 @@ if (F) {
   nrow(dds)
   
   ### 数据标准化用于看聚类，下面的链接中解释了为什么使用vst方法
-  ### httpLOCAL_PROJECT_PATH
+  ### https://dwz.cn/xJTuI4aO
   ### 第一个函数vst,用来把数据标准化，类似于取log
   vsd <- vst(dds, blind = FALSE)
   

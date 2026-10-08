@@ -88,7 +88,7 @@ write.csv(importance_df_sorted,"./02output/svmlao/3feature_RF.csv")
 ########### 画棒棒糖图
 
 ###调整配色
-#### httpLOCAL_PROJECT_PATH
+#### https://blog.csdn.net/qq_36509256/article/details/114659285
 library(RColorBrewer) 
 library(viridis)
 library(wesanderson)

@@ -4,7 +4,7 @@
 ### 更新时间：2020-01-04
 ### 微信公众号:果子学生信
 ### 私人微信：guotosky
-### 个人博客: httpLOCAL_PROJECT_PATH
+### 个人博客: https://codingsoeasy.com/
 
 ## 练习GEO数据的处理流程
 
@@ -15,16 +15,16 @@ rm(list = ls())
 
 getwd()
 #安装bioconductor包
-#options(BioC_mirror="httpLOCAL_PROJECT_PATH")
+#options(BioC_mirror="https://mirrors.ustc.edu.cn/bioc/")
 #if(!require("limma")) BiocManager::install("limma",update = F,ask = F)
 
 ##本次处理的GEO数据编号：GSE42872
 ##如果网络不是很通畅，手工获取上一步matrix的链接，下载到目的文件夹
 ## 解压缩
 #在浏览器中打开
-#ftLOCAL_PROJECT_PATH
+#ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE42nnn/GSE42872/matrix/GSE42872_series_matrix.txt.gz
 #或者先登录
-#httpLOCAL_PROJECT_PATH
+#https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
 #在GEO accession 中输入GSE42872 也可以找到
 
 ###########
@@ -71,4 +71,4 @@ exprSet[1:4,1:4]
 # exprSet <- exprSet[,-1] 
 save(exprSet,cli01,cli01_GSE164050,  file = "exprSet_readGSE_GSE164050_All.counts.Rdata")
 ## GEO教程长期更新的链接是这个:
-## httpLOCAL_PROJECT_PATH
+## https://codingsoeasy.com/archives/geo

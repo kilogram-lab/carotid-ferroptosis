@@ -347,7 +347,7 @@ Idents(scRNA)=scRNA$seurat_clusters
 dir.create('cell_identify')
 ###3.细胞类型鉴定
 
-##   httpLOCAL_PROJECT_PATH
+##   https://www.jianshu.com/p/6bc3530f2f48
 
 
 
@@ -524,7 +524,7 @@ p_celltype + p_cellgroup
 #   design = NULL
 # )
 
-#### httpLOCAL_PROJECT_PATH
+#### https://zhuanlan.zhihu.com/p/370782775
 
 
 

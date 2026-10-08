@@ -466,7 +466,7 @@ ggsave("03fig03/02_cellgroup.pdf", p_cellgroup, width=6 ,height=4)
 #   design = NULL
 # )
 
-#### httpLOCAL_PROJECT_PATH
+#### https://zhuanlan.zhihu.com/p/370782775
 library(patchwork)
 p_cell_combine01 <- p_celltype + p_cellgroup +
   plot_layout(guides = "collect") 
